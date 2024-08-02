@@ -1,0 +1,1399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Spotless Hungry Crocodile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background-color: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <style>
+      @keyframes fade-in-left {
+        0% {
+          opacity: 0;
+          transform: translateX(-20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="home-container">
+        <header class="navbar-container90">
+          <header data-thq="thq-navbar" class="navbar-navbar-interactive1">
+            <img
+              alt="To-Do List Logo"
+              src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/84ec08e8-34e9-42c7-9445-d2806d156403/fac575ac-7a41-484f-b7ac-875042de11f8?org_if_sml=1&amp;force_format=original"
+              class="navbar-image14"
+            />
+            <div data-thq="thq-navbar-nav" class="navbar-desktop-menu1">
+              <nav class="navbar-links6">
+                <span class="thq-link thq-body-small"><span>Home</span></span>
+                <span class="thq-link thq-body-small">
+                  <span>Add Task</span>
+                </span>
+                <span class="thq-link thq-body-small">
+                  <span>Completed Tasks</span>
+                </span>
+                <span class="thq-link thq-body-small"><span>Link4</span></span>
+                <span class="thq-link thq-body-small"><span>Link5</span></span>
+              </nav>
+              <div class="navbar-buttons4">
+                <button
+                  class="navbar-action16 thq-button-filled thq-button-animated"
+                >
+                  <span class="thq-body-small">Action 1</span>
+                </button>
+                <button
+                  class="navbar-action24 thq-button-animated thq-button-outline"
+                >
+                  <span class="thq-body-small">Action 2</span>
+                </button>
+              </div>
+            </div>
+            <div data-thq="thq-burger-menu" class="navbar-burger-menu1">
+              <svg viewBox="0 0 1024 1024" class="navbar-icon152">
+                <path
+                  d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                ></path>
+              </svg>
+            </div>
+            <div data-thq="thq-mobile-menu" class="navbar-mobile-menu1">
+              <div class="navbar-nav1">
+                <div class="navbar-top1">
+                  <img
+                    alt="To-Do List Logo"
+                    src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/84ec08e8-34e9-42c7-9445-d2806d156403/fac575ac-7a41-484f-b7ac-875042de11f8?org_if_sml=1&amp;force_format=original"
+                    class="navbar-logo1"
+                  />
+                  <div data-thq="thq-close-menu" class="navbar-close-menu1">
+                    <svg viewBox="0 0 1024 1024" class="navbar-icon154">
+                      <path
+                        d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <nav class="navbar-links7">
+                  <span class="thq-link thq-body-small"><span>Home</span></span>
+                  <span class="thq-link thq-body-small">
+                    <span>Add Task</span>
+                  </span>
+                  <span class="thq-link thq-body-small">
+                    <span>Completed Tasks</span>
+                  </span>
+                  <span class="thq-link thq-body-small">
+                    <span>Link4</span>
+                  </span>
+                  <span class="thq-link thq-body-small">
+                    <span>Link5</span>
+                  </span>
+                </nav>
+              </div>
+              <div class="navbar-buttons5">
+                <button class="thq-button-filled">Login</button>
+                <button class="thq-button-outline">Register</button>
+              </div>
+            </div>
+          </header>
+        </header>
+        <div class="hero-header781">
+          <div class="hero-column13 thq-section-padding thq-section-max-width">
+            <div class="hero-content44">
+              <h1 class="hero-text244 thq-heading-1">
+                <span>Welcome to Your Personal Task Manager</span>
+              </h1>
+              <p class="hero-text245 thq-body-large">
+                <span>
+                  Stay organized and on top of your tasks with our simple and
+                  intuitive to-do list manager. Keep track of what needs to be
+                  done and celebrate your accomplishments.
+                </span>
+              </p>
+            </div>
+            <div class="hero-actions10">
+              <button class="thq-button-filled hero-button32">
+                <span class="thq-body-small"><span>Get Started</span></span>
+              </button>
+              <button class="thq-button-outline hero-button33">
+                <span class="thq-body-small"><span>Learn More</span></span>
+              </button>
+            </div>
+          </div>
+          <div class="hero-content45">
+            <div
+              class="hero-row-container4 thq-mask-image-horizontal thq-animated-group-container-horizontal"
+            >
+              <div class="thq-animated-group-horizontal">
+                <img
+                  alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1551005916-2de2d0746c9f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjYwNjcwNHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  class="hero-placeholder-image48 thq-img-scale thq-img-ratio-1-1"
+                />
+                <img
+                  alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjYwNjcwM3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  class="hero-placeholder-image49 thq-img-scale thq-img-ratio-1-1"
+                />
+                <img
+                  alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjYwNjcwMnw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  class="hero-placeholder-image50 thq-img-scale thq-img-ratio-1-1"
+                />
+                <img
+                  alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1500239038240-9b3b8bac73c3?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjYwNjcwNHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  class="hero-placeholder-image51 thq-img-scale thq-img-ratio-1-1"
+                />
+                <img
+                  alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1465984111739-03a1ee4647a0?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjYwNjcwNHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  class="hero-placeholder-image52 thq-img-scale thq-img-ratio-1-1"
+                />
+                <img
+                  alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1623951464005-b759ede9a460?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjYwNjcwM3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  class="hero-placeholder-image53 thq-img-scale thq-img-ratio-1-1"
+                />
+              </div>
+              <div class="thq-animated-group-horizontal">
+                <img
+                  alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1551005916-2de2d0746c9f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjYwNjcwNHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  class="hero-placeholder-image54 thq-img-scale thq-img-ratio-1-1"
+                />
+                <img
+                  alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjYwNjcwM3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  class="hero-placeholder-image55 thq-img-scale thq-img-ratio-1-1"
+                />
+                <img
+                  alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjYwNjcwMnw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  class="hero-placeholder-image56 thq-img-scale thq-img-ratio-1-1"
+                />
+                <img
+                  alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1500239038240-9b3b8bac73c3?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjYwNjcwNHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  class="hero-placeholder-image57 thq-img-scale thq-img-ratio-1-1"
+                />
+                <img
+                  alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1465984111739-03a1ee4647a0?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjYwNjcwNHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  class="hero-placeholder-image58 thq-img-scale thq-img-ratio-1-1"
+                />
+                <img
+                  alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1534312527009-56c7016453e6?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDIxfHxhYnN0cmFjdHxlbnwwfHx8fDE3MTA4NzA5MzB8MA&amp;ixlib=rb-4.0.3&amp;w=1500"
+                  class="hero-placeholder-image59 thq-img-scale thq-img-ratio-1-1"
+                />
+              </div>
+            </div>
+            <div
+              class="hero-row-container5 thq-mask-image-horizontal thq-animated-group-container-horizontal"
+            >
+              <div class="thq-animated-group-horizontal-reverse">
+                <img
+                  alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1680372178807-393e8e9e244f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjYwNjcwM3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  class="hero-placeholder-image60 thq-img-scale thq-img-ratio-1-1"
+                />
+                <img
+                  alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1596079890687-58c51d24889a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjYwNjcwM3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  class="hero-placeholder-image61 thq-img-scale thq-img-ratio-1-1"
+                />
+                <img
+                  alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1634148739177-775032f3feb1?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjYwNjcwM3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  class="hero-placeholder-image62 thq-img-scale thq-img-ratio-1-1"
+                />
+                <img
+                  alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1531736275454-adc48d079ce9?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjYwNjcwNHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  class="hero-placeholder-image63 thq-img-scale thq-img-ratio-1-1"
+                />
+                <img
+                  alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjYwNjcwM3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  class="hero-placeholder-image64 thq-img-scale thq-img-ratio-1-1"
+                />
+                <img
+                  alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1634148739177-775032f3feb1?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjYwNjcwM3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  class="hero-placeholder-image65 thq-img-scale thq-img-ratio-1-1"
+                />
+              </div>
+              <div class="thq-animated-group-horizontal-reverse">
+                <img
+                  alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1680372178807-393e8e9e244f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjYwNjcwM3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  class="hero-placeholder-image66 thq-img-scale thq-img-ratio-1-1"
+                />
+                <img
+                  alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1596079890687-58c51d24889a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjYwNjcwM3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  class="hero-placeholder-image67 thq-img-scale thq-img-ratio-1-1"
+                />
+                <img
+                  alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1634148739177-775032f3feb1?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjYwNjcwM3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  class="hero-placeholder-image68 thq-img-scale thq-img-ratio-1-1"
+                />
+                <img
+                  alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1531736275454-adc48d079ce9?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjYwNjcwNHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  class="hero-placeholder-image69 thq-img-scale thq-img-ratio-1-1"
+                />
+                <img
+                  alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjYwNjcwM3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  class="hero-placeholder-image70 thq-img-scale thq-img-ratio-1-1"
+                />
+                <img
+                  alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1568214379698-8aeb8c6c6ac8?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDEyfHxncmFmaWN8ZW58MHx8fHwxNzE1Nzk0OTk5fDA&amp;ixlib=rb-4.0.3&amp;w=1500"
+                  class="hero-placeholder-image71 thq-img-scale thq-img-ratio-1-1"
+                />
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="hero-container92">
+              <style>
+                @keyframes scroll-x {
+                  from {
+                    transform: translateX(0);
+                  }
+                  to {
+                    transform: translateX(calc(-100% - 16px));
+                  }
+                }
+
+                @keyframes scroll-y {
+                  from {
+                    transform: translateY(0);
+                  }
+                  to {
+                    transform: translateY(calc(-100% - 16px));
+                  }
+                }
+              </style>
+            </div>
+          </div>
+        </div>
+        <div class="thq-section-padding">
+          <div class="features1-container096 thq-section-max-width">
+            <div class="features1-image-container3">
+              <img
+                alt="Image for Feature 1"
+                src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjYwNjcwM3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                class="features1-image24 thq-img-ratio-16-9"
+              />
+              <img
+                alt="Image for Feature 2"
+                src="https://images.unsplash.com/photo-1668201400415-baa55ccca470?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjYwNjcwM3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                class="features1-image25 thq-img-ratio-16-9"
+              />
+              <img
+                alt="Image for Feature 3"
+                src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjYwNjcwMnw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                class="features1-image26 thq-img-ratio-16-9"
+              />
+            </div>
+            <div class="features1-tabs-menu3">
+              <div class="features1-tab-horizontal12">
+                <div class="features1-divider-container12">
+                  <div class="features1-container097"></div>
+                </div>
+                <div class="features1-content47">
+                  <h2 class="thq-heading-2"><span>Feature 1 Title</span></h2>
+                  <span class="thq-body-small">
+                    <span>Description for Feature 1</span>
+                  </span>
+                </div>
+              </div>
+              <div class="features1-tab-horizontal13">
+                <div class="features1-divider-container13">
+                  <div class="features1-container098"></div>
+                </div>
+                <div class="features1-content48">
+                  <h2 class="thq-heading-2"><span>Feature 2 Title</span></h2>
+                  <span class="thq-body-small">
+                    <span>Description for Feature 2</span>
+                  </span>
+                </div>
+              </div>
+              <div class="features1-tab-horizontal14">
+                <div class="features1-divider-container14">
+                  <div class="features1-container099"></div>
+                </div>
+                <div class="features1-content49">
+                  <h2 class="thq-heading-2"><span>Feature 3 Title</span></h2>
+                  <span class="thq-body-small">
+                    <span>Description for Feature 3</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="thq-section-padding">
+          <div class="thq-section-max-width">
+            <div class="cta-accent2-bg09">
+              <div class="cta-accent1-bg09">
+                <div class="cta-container71">
+                  <div class="cta-content35">
+                    <span class="thq-heading-2">
+                      <span>Stay Organized with Your To-Do List</span>
+                    </span>
+                    <p class="thq-body-large">
+                      <span>
+                        Keep track of your tasks and accomplishments in one
+                        place.
+                      </span>
+                    </p>
+                  </div>
+                  <div class="cta-actions7">
+                    <button
+                      type="button"
+                      class="thq-button-filled cta-button29"
+                    >
+                      <span>Start Adding Tasks</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="thq-section-padding">
+          <div class="features2-container101 thq-section-max-width">
+            <div class="features2-tabs-menu4">
+              <div class="features2-tab-horizontal15">
+                <div class="features2-divider-container15">
+                  <div class="features2-container102"></div>
+                </div>
+                <div class="features2-content50">
+                  <h2 class="thq-heading-2"><span>Feature #1</span></h2>
+                  <span class="thq-body-small">
+                    <span>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Suspendisse varius enim in eros elementum tristique. Duis
+                      cursus, mi quis viverra ornare, eros dolor interdum nulla,
+                      ut commodo diam libero vitae erat.
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div class="features2-tab-horizontal16">
+                <div class="features2-divider-container16">
+                  <div class="features2-container103"></div>
+                </div>
+                <div class="features2-content51">
+                  <h2 class="thq-heading-2">
+                    <span>Add and Track Tasks</span>
+                  </h2>
+                  <span class="thq-body-small">
+                    <span>
+                      Easily add your to-do list and track the tasks you have
+                      completed.
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div class="features2-tab-horizontal17">
+                <div class="features2-divider-container17">
+                  <div class="features2-container104"></div>
+                </div>
+                <div class="features2-content52">
+                  <h2 class="thq-heading-2"><span>Feature #3</span></h2>
+                  <span class="thq-body-small">
+                    <span>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Suspendisse varius enim in eros elementum tristique. Duis
+                      cursus, mi quis viverra ornare, eros dolor interdum nulla,
+                      ut commodo diam libero vitae erat.
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="features2-image-container4">
+              <img
+                alt="feature 1"
+                src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjYwNjcwMnw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                class="features2-image27 thq-img-ratio-16-9"
+              />
+              <img
+                alt="Illustration of adding and tracking tasks"
+                src="https://images.unsplash.com/photo-1576324374260-c64736180172?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjYwNjcwM3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                class="features2-image28 thq-img-ratio-16-9"
+              />
+              <img
+                alt="image"
+                src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjYwNjcwM3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                class="features2-image29 thq-img-ratio-16-9"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="pricing-pricing231 thq-section-padding">
+          <div class="pricing-max-width16 thq-section-max-width">
+            <div class="pricing-section-title4">
+              <span class="pricing-text248 thq-body-small">
+                <span>Choose the perfect plan for you</span>
+              </span>
+              <div class="pricing-content46">
+                <h2 class="pricing-text249 thq-heading-2">
+                  <span>Pricing plan</span>
+                </h2>
+                <p class="pricing-text250 thq-body-large">
+                  <span>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div class="pricing-tabs1">
+              <button
+                class="pricing-button34 thq-button-filled thq-button-animated"
+              >
+                <span class="thq-body-small">Monthly</span>
+              </button>
+              <button
+                class="pricing-button35 thq-button-animated thq-button-outline"
+              >
+                <span class="thq-body-small">Monthly</span>
+              </button>
+              <button
+                class="pricing-button36 thq-button-filled thq-button-animated"
+              >
+                <span class="thq-body-small">Yearly</span>
+              </button>
+              <button
+                class="pricing-button37 thq-button-animated thq-button-outline"
+              >
+                <span class="thq-body-small">Yearly</span>
+              </button>
+            </div>
+            <div class="pricing-container93">
+              <div class="pricing-column14 thq-card">
+                <div class="pricing-price24">
+                  <div class="pricing-price25">
+                    <p class="pricing-text255 thq-body-large">
+                      <span>Basic plan</span>
+                    </p>
+                    <h3 class="pricing-text256 thq-heading-3">
+                      <span>$9.99/month</span>
+                    </h3>
+                    <p class="thq-body-large"><span>or $200 yearly</span></p>
+                  </div>
+                  <div class="pricing-list12">
+                    <div class="pricing-list-item48">
+                      <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                        <path
+                          d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                        ></path>
+                      </svg>
+                      <span class="thq-body-small">
+                        <span>Unlimited tasks</span>
+                      </span>
+                    </div>
+                    <div class="pricing-list-item49">
+                      <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                        <path
+                          d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                        ></path>
+                      </svg>
+                      <span class="thq-body-small">
+                        <span>Priority support</span>
+                      </span>
+                    </div>
+                    <div class="pricing-list-item50">
+                      <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                        <path
+                          d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                        ></path>
+                      </svg>
+                      <span class="thq-body-small">
+                        <span>Custom categories</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <button
+                  class="pricing-button38 thq-button-animated thq-button-outline"
+                >
+                  <span class="thq-body-small">
+                    <span>Upgrade to Plan 1</span>
+                  </span>
+                </button>
+              </div>
+              <div class="pricing-column15 thq-card">
+                <div class="pricing-price26">
+                  <div class="pricing-price27">
+                    <p class="pricing-text262 thq-body-large">
+                      <span>Business plan</span>
+                    </p>
+                    <h3 class="pricing-text263 thq-heading-3">
+                      <span>$19.99/month</span>
+                    </h3>
+                    <p class="thq-body-large"><span>or $299 yearly</span></p>
+                  </div>
+                  <div class="pricing-list13">
+                    <div class="pricing-list-item51">
+                      <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                        <path
+                          d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                        ></path>
+                      </svg>
+                      <span class="thq-body-small">
+                        <span>All Plan 1 features</span>
+                      </span>
+                    </div>
+                    <div class="pricing-list-item52">
+                      <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                        <path
+                          d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                        ></path>
+                      </svg>
+                      <span class="thq-body-small">
+                        <span>Team collaboration</span>
+                      </span>
+                    </div>
+                    <div class="pricing-list-item53">
+                      <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                        <path
+                          d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                        ></path>
+                      </svg>
+                      <span class="thq-body-small">
+                        <span>Advanced reporting</span>
+                      </span>
+                    </div>
+                    <div class="pricing-list-item54">
+                      <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                        <path
+                          d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                        ></path>
+                      </svg>
+                      <span class="thq-body-small">
+                        <span>Feature text goes here</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <button
+                  class="pricing-button39 thq-button-filled thq-button-animated"
+                >
+                  <span class="thq-body-small">
+                    <span>Upgrade to Plan 2</span>
+                  </span>
+                </button>
+              </div>
+              <div class="pricing-column16 thq-card">
+                <div class="pricing-price28">
+                  <div class="pricing-price29">
+                    <p class="pricing-text270 thq-body-large">
+                      <span>Enterprise plan</span>
+                    </p>
+                    <h3 class="pricing-text271 thq-heading-3">
+                      <span>$29.99/month</span>
+                    </h3>
+                    <p class="thq-body-large"><span>or $499 yearly</span></p>
+                  </div>
+                  <div class="pricing-list14">
+                    <div class="pricing-list-item55">
+                      <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                        <path
+                          d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                        ></path>
+                      </svg>
+                      <span class="thq-body-small">
+                        <span>All Plan 2 features</span>
+                      </span>
+                    </div>
+                    <div class="pricing-list-item56">
+                      <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                        <path
+                          d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                        ></path>
+                      </svg>
+                      <span class="thq-body-small">
+                        <span>Time tracking</span>
+                      </span>
+                    </div>
+                    <div class="pricing-list-item57">
+                      <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                        <path
+                          d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                        ></path>
+                      </svg>
+                      <span class="thq-body-small">
+                        <span>Integration with calendar</span>
+                      </span>
+                    </div>
+                    <div class="pricing-list-item58">
+                      <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                        <path
+                          d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                        ></path>
+                      </svg>
+                      <span class="thq-body-small">
+                        <span>Feature text goes here</span>
+                      </span>
+                    </div>
+                    <div class="pricing-list-item59">
+                      <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                        <path
+                          d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                        ></path>
+                      </svg>
+                      <span class="thq-body-small">
+                        <span>Feature text goes here</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <button
+                  class="pricing-button40 thq-button-filled thq-button-animated"
+                >
+                  <span class="thq-body-small">
+                    <span>Upgrade to Plan 3</span>
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div class="pricing-container94">
+              <div class="pricing-column17 thq-card">
+                <div class="pricing-price30">
+                  <div class="pricing-price31">
+                    <span class="pricing-text279 thq-body-large">
+                      <span>Basic plan</span>
+                    </span>
+                    <h3 class="pricing-text280 thq-heading-3">
+                      <span>$200/yr</span>
+                    </h3>
+                    <span class="thq-body-large">
+                      <span>or $20 monthly</span>
+                    </span>
+                  </div>
+                  <div class="pricing-list15">
+                    <div class="pricing-list-item60">
+                      <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                        <path
+                          d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                        ></path>
+                      </svg>
+                      <span class="thq-body-small">
+                        <span>Feature text goes here</span>
+                      </span>
+                    </div>
+                    <div class="pricing-list-item61">
+                      <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                        <path
+                          d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                        ></path>
+                      </svg>
+                      <span class="thq-body-small">
+                        <span>Feature text goes here</span>
+                      </span>
+                    </div>
+                    <div class="pricing-list-item62">
+                      <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                        <path
+                          d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                        ></path>
+                      </svg>
+                      <span class="thq-body-small">
+                        <span>Feature text goes here</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <button
+                  class="pricing-button41 thq-button-animated thq-button-outline"
+                >
+                  <span class="thq-body-small"><span>Get started</span></span>
+                </button>
+              </div>
+              <div class="pricing-column18 thq-card">
+                <div class="pricing-price32">
+                  <div class="pricing-price33">
+                    <span class="pricing-text286 thq-body-large">
+                      <span>Business plan</span>
+                    </span>
+                    <h3 class="pricing-text287 thq-heading-3">
+                      <span>$299/yr</span>
+                    </h3>
+                    <span class="thq-body-large">
+                      <span>or $29 monthly</span>
+                    </span>
+                  </div>
+                  <div class="pricing-list16">
+                    <div class="pricing-list-item63">
+                      <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                        <path
+                          d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                        ></path>
+                      </svg>
+                      <span class="thq-body-small">
+                        <span>Feature text goes here</span>
+                      </span>
+                    </div>
+                    <div class="pricing-list-item64">
+                      <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                        <path
+                          d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                        ></path>
+                      </svg>
+                      <span class="thq-body-small">
+                        <span>Feature text goes here</span>
+                      </span>
+                    </div>
+                    <div class="pricing-list-item65">
+                      <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                        <path
+                          d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                        ></path>
+                      </svg>
+                      <span class="thq-body-small">
+                        <span>Feature text goes here</span>
+                      </span>
+                    </div>
+                    <div class="pricing-list-item66">
+                      <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                        <path
+                          d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                        ></path>
+                      </svg>
+                      <span class="thq-body-small">
+                        <span>Feature text goes here</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <button
+                  class="pricing-button42 thq-button-filled thq-button-animated"
+                >
+                  <span class="thq-body-small"><span>Get started</span></span>
+                </button>
+              </div>
+              <div class="pricing-column19 thq-card">
+                <div class="pricing-price34">
+                  <div class="pricing-price35">
+                    <span class="pricing-text294 thq-body-large">
+                      <span>Enterprise plan</span>
+                    </span>
+                    <h3 class="pricing-text295 thq-heading-3">
+                      <span>$499/yr</span>
+                    </h3>
+                    <span class="thq-body-large">
+                      <span>or $49 monthly</span>
+                    </span>
+                  </div>
+                  <div class="pricing-list17">
+                    <div class="pricing-list-item67">
+                      <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                        <path
+                          d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                        ></path>
+                      </svg>
+                      <span class="thq-body-small">
+                        <span>Feature text goes here</span>
+                      </span>
+                    </div>
+                    <div class="pricing-list-item68">
+                      <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                        <path
+                          d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                        ></path>
+                      </svg>
+                      <span class="thq-body-small">
+                        <span>Feature text goes here</span>
+                      </span>
+                    </div>
+                    <div class="pricing-list-item69">
+                      <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                        <path
+                          d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                        ></path>
+                      </svg>
+                      <span class="thq-body-small">
+                        <span>Feature text goes here</span>
+                      </span>
+                    </div>
+                    <div class="pricing-list-item70">
+                      <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                        <path
+                          d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                        ></path>
+                      </svg>
+                      <span class="thq-body-small">
+                        <span>Feature text goes here</span>
+                      </span>
+                    </div>
+                    <div class="pricing-list-item71">
+                      <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                        <path
+                          d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                        ></path>
+                      </svg>
+                      <span class="thq-body-small">
+                        <span>Feature text goes here</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <button
+                  class="pricing-button43 thq-button-filled thq-button-animated"
+                >
+                  <span class="thq-body-small"><span>Get started</span></span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="steps-container83 thq-section-padding">
+          <div class="steps-max-width15 thq-section-max-width">
+            <div class="steps-container84 thq-grid-2">
+              <div class="steps-section-header1">
+                <h2 class="thq-heading-2">
+                  Discover the Power of Our Products
+                </h2>
+                <p class="thq-body-large">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros elementum tristique. Duis
+                  cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
+                  commodo diam libero vitae erat.
+                </p>
+                <div class="steps-actions09">
+                  <button
+                    class="thq-button-filled thq-button-animated steps-button31"
+                  >
+                    <span class="thq-body-small">Main action</span>
+                  </button>
+                </div>
+              </div>
+              <div class="steps-container85">
+                <div class="steps-container86 thq-card">
+                  <h2 class="thq-heading-2"><span>Create an Account</span></h2>
+                  <span class="steps-text231 thq-body-small">
+                    <span>
+                      Sign up for an account on the platform to start using the
+                      to-do list feature.
+                    </span>
+                  </span>
+                  <label class="steps-text232 thq-heading-3">01</label>
+                </div>
+                <div class="steps-container87 thq-card">
+                  <h2 class="thq-heading-2"><span>Add Tasks</span></h2>
+                  <span class="steps-text234 thq-body-small">
+                    <span>
+                      Click on the 'Add Task' button to input your to-do list
+                      items and set deadlines.
+                    </span>
+                  </span>
+                  <label class="steps-text235 thq-heading-3">02</label>
+                </div>
+                <div class="steps-container88 thq-card">
+                  <h2 class="thq-heading-2"><span>Mark as Done</span></h2>
+                  <span class="steps-text237 thq-body-small">
+                    <span>
+                      Once you complete a task, mark it as done by checking the
+                      box next to the task.
+                    </span>
+                  </span>
+                  <label class="steps-text238 thq-heading-3">03</label>
+                </div>
+                <div class="steps-container89 thq-card">
+                  <h2 class="thq-heading-2"><span>Delete Tasks</span></h2>
+                  <span class="steps-text240 thq-body-small">
+                    <span>
+                      To remove tasks from your list, click on the 'Delete'
+                      button next to the task.
+                    </span>
+                  </span>
+                  <label class="steps-text241 thq-heading-3">04</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="thq-section-padding">
+          <div class="testimonial-max-width14 thq-section-max-width">
+            <div class="testimonial-container73">
+              <h2 class="thq-heading-2"><span>Testimonials</span></h2>
+              <span class="testimonial-text214 thq-body-small">
+                <span>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </span>
+              </span>
+            </div>
+            <div class="thq-grid-2">
+              <div class="thq-animated-card-bg-2">
+                <div class="thq-animated-card-bg-1">
+                  <div data-animated="true" class="thq-card testimonial-card08">
+                    <div class="testimonial-container75">
+                      <img
+                        alt="Image of John Doe"
+                        src="https://images.unsplash.com/photo-1632377082408-b66c8707bed8?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjYwNjcwMnw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                        class="testimonial-image20"
+                      />
+                      <div class="testimonial-container76">
+                        <strong class="thq-body-large">
+                          <span>John Doe</span>
+                        </strong>
+                        <span class="thq-body-small">
+                          <span>CEO, Company ABC</span>
+                        </span>
+                      </div>
+                    </div>
+                    <span class="testimonial-text217 thq-body-small">
+                      <span>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua.
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="thq-animated-card-bg-2">
+                <div class="thq-animated-card-bg-1">
+                  <div data-animated="true" class="thq-card testimonial-card09">
+                    <div class="testimonial-container77">
+                      <img
+                        alt="Image of Jane Smith"
+                        src="https://images.unsplash.com/photo-1541112324160-e8a425b58dac?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjYwNjcwM3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                        class="testimonial-image21"
+                      />
+                      <div class="testimonial-container78">
+                        <strong class="thq-body-large">
+                          <span>Jane Smith</span>
+                        </strong>
+                        <span class="thq-body-small">
+                          <span>Founder, XYZ Inc.</span>
+                        </span>
+                      </div>
+                    </div>
+                    <span class="testimonial-text220 thq-body-small">
+                      <span>
+                        Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="thq-animated-card-bg-2">
+                <div class="thq-animated-card-bg-1">
+                  <div data-animated="true" class="thq-card testimonial-card10">
+                    <div class="testimonial-container79">
+                      <img
+                        alt="Image of Alice Johnson"
+                        src="https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjYwNjcwM3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                        class="testimonial-image22"
+                      />
+                      <div class="testimonial-container80">
+                        <strong class="thq-body-large">
+                          <span>Alice Johnson</span>
+                        </strong>
+                        <span class="thq-body-small">
+                          <span>CTO, Tech Solutions Ltd.</span>
+                        </span>
+                      </div>
+                    </div>
+                    <span class="testimonial-text223 thq-body-small">
+                      <span>
+                        Duis aute irure dolor in reprehenderit in voluptate
+                        velit esse cillum dolore eu fugiat nulla pariatur.
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="thq-animated-card-bg-2">
+                <div class="thq-animated-card-bg-1">
+                  <div data-animated="true" class="thq-card testimonial-card11">
+                    <div class="testimonial-container81">
+                      <img
+                        alt="Image of Michael Brown"
+                        src="https://images.unsplash.com/photo-1622446555437-bd11e97ae93f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjYwNjcwMnw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                        class="testimonial-image23"
+                      />
+                      <div class="testimonial-container82">
+                        <strong class="thq-body-large">
+                          <span>Michael Brown</span>
+                        </strong>
+                        <span class="thq-body-small">
+                          <span>Marketing Director, Digital Co.</span>
+                        </span>
+                      </div>
+                    </div>
+                    <span class="testimonial-text226 thq-body-small">
+                      <span>
+                        Excepteur sint occaecat cupidatat non proident, sunt in
+                        culpa qui officia deserunt mollit anim id est laborum.
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-contact201 thq-section-padding">
+          <div class="contact-max-width13 thq-section-max-width">
+            <div class="contact-section-title3">
+              <span class="thq-body-small">
+                <span>We are here to assist you.</span>
+              </span>
+              <div class="contact-content37">
+                <h2 class="thq-heading-2"><span>Contact Us</span></h2>
+                <p class="contact-text206 thq-body-large">
+                  <span>
+                    Feel free to reach out to us for any inquiries or feedback.
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div class="contact-row4">
+              <div class="contact-content38">
+                <svg viewBox="0 0 1024 1024" class="thq-icon-medium">
+                  <path
+                    d="M854 342v-86l-342 214-342-214v86l342 212zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"
+                  ></path>
+                </svg>
+                <div class="contact-contact-info6">
+                  <div class="contact-content39">
+                    <h3 class="contact-text207 thq-heading-3">Email</h3>
+                    <p class="contact-text208 thq-body-large">
+                      <span>
+                        You can also visit our office during business hours.
+                      </span>
+                    </p>
+                  </div>
+                  <span class="contact-email1 thq-body-small">
+                    <span>contact@example.com</span>
+                  </span>
+                </div>
+              </div>
+              <div class="contact-content40">
+                <svg viewBox="0 0 1024 1024" class="thq-icon-medium">
+                  <path
+                    d="M282 460q96 186 282 282l94-94q20-20 44-10 72 24 152 24 18 0 30 12t12 30v150q0 18-12 30t-30 12q-300 0-513-213t-213-513q0-18 12-30t30-12h150q18 0 30 12t12 30q0 80 24 152 8 26-10 44z"
+                  ></path>
+                </svg>
+                <div class="contact-contact-info7">
+                  <div class="contact-content41">
+                    <h3 class="contact-text209 thq-heading-3">Phone</h3>
+                    <p class="contact-text210 thq-body-large">
+                      <span>
+                        Follow us on social media for updates and more.
+                      </span>
+                    </p>
+                  </div>
+                  <span class="contact-phone1 thq-body-small">
+                    <span>+1234567890</span>
+                  </span>
+                </div>
+              </div>
+              <div class="contact-content42">
+                <svg viewBox="0 0 1024 1024" class="thq-icon-medium">
+                  <path
+                    d="M512 0c-176.732 0-320 143.268-320 320 0 320 320 704 320 704s320-384 320-704c0-176.732-143.27-320-320-320zM512 512c-106.040 0-192-85.96-192-192s85.96-192 192-192 192 85.96 192 192-85.96 192-192 192z"
+                  ></path>
+                </svg>
+                <div class="contact-contact-info8">
+                  <div class="contact-content43">
+                    <h3 class="contact-text211 thq-heading-3">Office</h3>
+                    <p class="contact-text212 thq-body-large">
+                      <span>We look forward to hearing from you!</span>
+                    </p>
+                  </div>
+                  <span class="contact-address1 thq-body-small">
+                    <span>123 Main Street, City, Country</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="footer-footer11 thq-section-padding">
+          <div class="footer-max-width12 thq-section-max-width">
+            <div class="footer-content36">
+              <div class="footer-newsletter1">
+                <img
+                  alt="logo"
+                  src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
+                  class="footer-image13"
+                />
+                <span class="thq-body-small">
+                  Subscribe to our newsletter for the latest updates on new
+                  features and product releases.
+                </span>
+                <div class="footer-actions08">
+                  <div class="footer-form1">
+                    <div class="footer-container72">
+                      <input
+                        type="email"
+                        placeholder="Enter your email"
+                        class="footer-text-input1 thq-input"
+                      />
+                    </div>
+                    <button class="thq-button-outline footer-button30">
+                      <span class="thq-body-small"><span>Subscribe</span></span>
+                    </button>
+                  </div>
+                  <span class="footer-content21 thq-body-small">
+                    <span>
+                      By subscribing you agree to with our Privacy Policy and
+                      provide consent to receive updates from our company.
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div class="footer-links5">
+                <div class="footer-column11">
+                  <strong class="thq-body-large footer-column1-title1">
+                    <span>Quick Links</span>
+                  </strong>
+                  <div class="footer-footer-links6">
+                    <a
+                      href="https://example.com"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="thq-body-small"
+                    >
+                      <span>Home</span>
+                    </a>
+                    <a
+                      href="https://example.com"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="thq-body-small"
+                    >
+                      <span>About</span>
+                    </a>
+                    <a
+                      href="https://example.com"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="thq-body-small"
+                    >
+                      <span>Contact</span>
+                    </a>
+                    <a
+                      href="https://example.com"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="thq-body-small"
+                    >
+                      <span>FAQs</span>
+                    </a>
+                    <a
+                      href="https://example.com"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="thq-body-small"
+                    >
+                      <span>Blog</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="footer-column21">
+                  <strong class="thq-body-large footer-column2-title1">
+                    <span>Column Two</span>
+                  </strong>
+                  <div class="footer-footer-links7">
+                    <a
+                      href="https://example.com"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="thq-body-small"
+                    >
+                      <span>Link 6</span>
+                    </a>
+                    <a
+                      href="https://example.com"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="thq-body-small"
+                    >
+                      <span>Link 7</span>
+                    </a>
+                    <a
+                      href="https://example.com"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="thq-body-small"
+                    >
+                      <span>Link 8</span>
+                    </a>
+                    <a
+                      href="https://example.com"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="thq-body-small"
+                    >
+                      <span>Link 9</span>
+                    </a>
+                    <a
+                      href="https://example.com"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="thq-body-small"
+                    >
+                      <span>Link 10</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="footer-column31">
+                  <strong class="thq-body-large footer-social-link1-title1">
+                    <span>Follow Us</span>
+                  </strong>
+                  <div class="footer-social-links1">
+                    <div class="footer-link10">
+                      <svg
+                        viewBox="0 0 877.7142857142857 1024"
+                        class="thq-icon-small"
+                      >
+                        <path
+                          d="M713.143 73.143c90.857 0 164.571 73.714 164.571 164.571v548.571c0 90.857-73.714 164.571-164.571 164.571h-107.429v-340h113.714l17.143-132.571h-130.857v-84.571c0-38.286 10.286-64 65.714-64l69.714-0.571v-118.286c-12-1.714-53.714-5.143-101.714-5.143-101.143 0-170.857 61.714-170.857 174.857v97.714h-114.286v132.571h114.286v340h-304c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571z"
+                        ></path>
+                      </svg>
+                      <span class="thq-body-small">Facebook</span>
+                    </div>
+                    <div class="footer-link11">
+                      <svg
+                        viewBox="0 0 877.7142857142857 1024"
+                        class="thq-icon-small"
+                      >
+                        <path
+                          d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                        ></path>
+                      </svg>
+                      <span class="thq-body-small">Instagram</span>
+                    </div>
+                    <div class="footer-link12">
+                      <svg
+                        viewBox="0 0 950.8571428571428 1024"
+                        class="thq-icon-small"
+                      >
+                        <path
+                          d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                        ></path>
+                      </svg>
+                      <span class="thq-body-small">X</span>
+                    </div>
+                    <div class="footer-link13">
+                      <svg
+                        viewBox="0 0 877.7142857142857 1024"
+                        class="thq-icon-small"
+                      >
+                        <path
+                          d="M135.429 808h132v-396.571h-132v396.571zM276 289.143c-0.571-38.857-28.571-68.571-73.714-68.571s-74.857 29.714-74.857 68.571c0 37.714 28.571 68.571 73.143 68.571h0.571c46.286 0 74.857-30.857 74.857-68.571zM610.286 808h132v-227.429c0-121.714-65.143-178.286-152-178.286-70.857 0-102.286 39.429-119.429 66.857h1.143v-57.714h-132s1.714 37.143 0 396.571v0h132v-221.714c0-11.429 0.571-23.429 4-32 9.714-23.429 31.429-48 68-48 47.429 0 66.286 36 66.286 89.714v212zM877.714 237.714v548.571c0 90.857-73.714 164.571-164.571 164.571h-548.571c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571c90.857 0 164.571 73.714 164.571 164.571z"
+                        ></path>
+                      </svg>
+                      <span class="thq-body-small">LinkedIn</span>
+                    </div>
+                    <div class="footer-link14">
+                      <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                        <path
+                          d="M406.286 644.571l276.571-142.857-276.571-144.571v287.429zM512 152c215.429 0 358.286 10.286 358.286 10.286 20 2.286 64 2.286 102.857 43.429 0 0 31.429 30.857 40.571 101.714 10.857 82.857 10.286 165.714 10.286 165.714v77.714s0.571 82.857-10.286 165.714c-9.143 70.286-40.571 101.714-40.571 101.714-38.857 40.571-82.857 40.571-102.857 42.857 0 0-142.857 10.857-358.286 10.857v0c-266.286-2.286-348-10.286-348-10.286-22.857-4-74.286-2.857-113.143-43.429 0 0-31.429-31.429-40.571-101.714-10.857-82.857-10.286-165.714-10.286-165.714v-77.714s-0.571-82.857 10.286-165.714c9.143-70.857 40.571-101.714 40.571-101.714 38.857-41.143 82.857-41.143 102.857-43.429 0 0 142.857-10.286 358.286-10.286v0z"
+                        ></path>
+                      </svg>
+                      <span class="thq-body-small">Youtube</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer-credits1">
+              <div class="thq-divider-horizontal"></div>
+              <div class="footer-row3">
+                <span class="thq-body-small">
+                  <span>© 2024 TeleportHQ</span>
+                </span>
+                <div class="footer-footer-links8">
+                  <span class="thq-body-small">
+                    <span>Privacy Policy</span>
+                  </span>
+                  <span class="thq-body-small">
+                    <span>Terms of Service</span>
+                  </span>
+                  <span class="thq-body-small">
+                    <span>Cookies Settings</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>
